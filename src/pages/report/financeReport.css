@@ -1,0 +1,33 @@
+.report {
+  width: 60vw;
+  height: 60vh;
+}
+
+.report h2 {
+  margin: 1rem 0;
+  font-family: "poppins";
+}
+
+.report-container {
+  margin-bottom: 2rem;
+}
+
+.report-container span {
+  font-size: 1.1rem;
+  font-family: "roboto";
+  margin-right: 10px;
+}
+
+.IncomeVsExpense {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.IncomeVsExpense p {
+  font-family: "poppins";
+  font-size: 1.3rem;
+  padding: 5px 0;
+}

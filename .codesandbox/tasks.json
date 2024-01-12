@@ -1,0 +1,41 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    {
+      "command": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force",
+      "name": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force"
+    },
+    {
+      "command": "npm i redux redux-thunk thunk  --force",
+      "name": "npm i redux redux-thunk thunk  --force"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    }
+  }
+}
