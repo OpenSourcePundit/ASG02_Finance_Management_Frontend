@@ -6,12 +6,12 @@
       "command": "yarn install"
     },
     {
-      "command": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force",
-      "name": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force"
+      "name": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force",
+      "command": " npm i react-dom react-scripts axios react-icons react-redux react-router react-router-dom --force"
     },
     {
-      "command": "npm i redux redux-thunk thunk  --force",
-      "name": "npm i redux redux-thunk thunk  --force"
+      "name": "npm i redux redux-thunk thunk  --force",
+      "command": "npm i redux redux-thunk thunk  --force"
     }
   ],
 
@@ -24,18 +24,15 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "eject": {
       "name": "eject",
-      "command": "yarn eject",
-      "runAtStart": false
+      "command": "yarn eject"
     }
   }
 }
